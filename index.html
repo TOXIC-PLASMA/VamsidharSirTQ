@@ -18,7 +18,6 @@
         <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
         <script src="https://raw.githack.com/AR-js-org/studio-backend/master/src/modules/marker/tools/gesture-detector.js"></script>
         <script src="https://raw.githack.com/AR-js-org/studio-backend/master/src/modules/marker/tools/gesture-handler.js"></script>
-        <script src="https://cdn.jsdelivr.net/gh/VulcanTechnologies/aframe-particle-system-component@1.1.0/dist/aframe-particle-system-component.min.js"></script>
     </head>
 
     <body>
@@ -63,13 +62,6 @@
                     animation__opacity="property: opacity; to: 1; dur: 2000; delay: 3000; easing: easeInOutQuad;"
                     animation__position="property: position; from: 0 0 0; to: 1.9 0 0; dur: 2000; delay: 3000; easing: easeInOutQuad;"
                 ></a-image>
-
-                <!-- Confetti Particle System -->
-                <a-entity 
-                    particle-system="preset: snow; particleCount: 1000; color: #FF0000, #00FF00, #0000FF, #FFFF00, #FF00FF, #00FFFF; 
-                    size: 2; sizeSpread: 0.5; velocitySpread: 5 3 5; duration: 5000; maxAge: 5"
-                    position="0 1.5 0">
-                </a-entity>
             </a-marker>
 
             <a-entity camera position="0 1.6 3"></a-entity>
